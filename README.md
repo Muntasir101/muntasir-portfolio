@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v1.0<br/>
-  <a href="https://muntasir101.vercel.app/" target="_blank">Muntasir</a>
+  <a href="https://muntasir101.vercel.app/" target="_blank">Muntasir Portfolio</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
@@ -23,7 +23,7 @@ You can fork this repo to modify and make changes of your own. Please give me pr
 
 ## Built With
 
-My personal portfolio <a href="https://muntasir101.vercel.app/" target="_blank">muntasir</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://muntasir101.vercel.app/" target="_blank">Muntasir Portfoli</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
