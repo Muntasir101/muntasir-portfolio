@@ -21,7 +21,7 @@ function Certificates() {
           My <strong className="purple">Certificates </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few certificates I've achive.
+         I have achieved several professional certifications.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
@@ -61,7 +61,8 @@ function Certificates() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+       
+          {/* <Col md={4} className="project-card">
             <CerticateCards
               imgPath={CSTE}
               isBlog={false}
@@ -72,8 +73,8 @@ function Certificates() {
               "
               demoLink="https://drive.google.com/file/d/1b7GUjGaLJR7kQV0eyWkugSqIbzoN2UKU/view"              
             />
-          </Col>
-
+          </Col> */}
+          
           
 
           <Col md={4} className="project-card">
