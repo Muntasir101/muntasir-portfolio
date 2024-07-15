@@ -5,7 +5,6 @@ import Particle from "../Particle";
 import PCEP from "./certificates-images/python.png";
 import GoogleITPython from "./certificates-images/Google-IT-Python.PNG";
 import AmazonAI from "./certificates-images/Amazon_AI.png";
-import CSTE from "./certificates-images/CSTE.png";
 import SeleniumProfessional from "./certificates-images/selenium.png";
 import ISTQB from "./certificates-images/ISTQB - Muntasir.jpg";
 import POSTMAN from "./certificates-images/postman.jpeg";
@@ -60,22 +59,7 @@ function Certificates() {
               demoLink="https://drive.google.com/file/d/1U8qTBXxRf83755_2f1WKO5htVt_gjH_U/view"
             />
           </Col>
-
-       
-          {/* <Col md={4} className="project-card">
-            <CerticateCards
-              imgPath={CSTE}
-              isBlog={false}
-              title="Certified Software Testing Engineer (CSTE)"
-              description="CSTE is Certified Software Tester (CSTE) from Software Certifications, a division of the Quality Assurance Institute.
-              by
-              Global Association for Quality Management
-              "
-              demoLink="https://drive.google.com/file/d/1b7GUjGaLJR7kQV0eyWkugSqIbzoN2UKU/view"              
-            />
-          </Col> */}
-          
-          
+      
 
           <Col md={4} className="project-card">
             <CerticateCards

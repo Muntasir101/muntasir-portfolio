@@ -33,6 +33,43 @@ function ProjectCards(props) {
             {"Demo"}
           </Button>
         )}
+
+        {!props.isBlog && props.testCase && (
+          <Button
+            variant="primary"
+            href={props.testCase}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgWebsite /> &nbsp;
+            {"Test Case"}
+          </Button>
+        )}
+
+        {!props.isBlog && props.bugsReport && (
+          <Button
+            variant="primary"
+            href={props.bugsReport}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgWebsite /> &nbsp;
+            {"Bug Report"}
+          </Button>
+        )}
+
+      {!props.isBlog && props.testReport && (
+          <Button
+            variant="primary"
+            href={props.testReport}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgWebsite /> &nbsp;
+            {"Test Report"}
+          </Button>
+        )}
+
       </Card.Body>
     </Card>
   );
