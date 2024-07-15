@@ -8,6 +8,8 @@ import AmazonAI from "./certificates-images/Amazon_AI.png";
 import CSTE from "./certificates-images/CSTE.png";
 import SeleniumProfessional from "./certificates-images/selenium.png";
 import ISTQB from "./certificates-images/ISTQB - Muntasir.jpg";
+import POSTMAN from "./certificates-images/postman.jpeg";
+import Jmeter from "./certificates-images/JMeter.jpeg";
 
 
 function Certificates() {
@@ -82,6 +84,32 @@ function Certificates() {
               description="The Selenium certification focuses on the candidate's capacity to implement Selenium WebDriver for designing and maintaining automated testing solutions.
               "
               demoLink="https://drive.google.com/file/d/1HTrLj1qhgv4YUkmjSDBKss9xkdYowCyw/view"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <CerticateCards
+              imgPath={POSTMAN}
+              isBlog={false}
+              title="Postman API Fundamentals"
+              description="What APIs are and why they are crucial to modern software development. 
+              How to use Postman to work with APIs. 
+              How to interact with a real-world API. How Postman helps you incorporate APIs into your applications.
+              "
+              demoLink="https://drive.google.com/file/d/1vHbgKZwOKdlHHoPkuwicuvzdLfjT1N0M/view?usp=sharing"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <CerticateCards
+              imgPath={Jmeter}
+              isBlog={false}
+              title="JMeter: Performance and Load Testing"
+              description="Apache JMeter, a popular open-source performance testing tool, 
+              to create and execute load tests that help you highlight performance issues 
+              in your software.
+              "
+              demoLink="https://drive.google.com/file/d/1zzTsQgCkZkpdCIGitIXrYFQx8zjksGJA/view?usp=sharing"              
             />
           </Col>
 
