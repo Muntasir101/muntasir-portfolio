@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import CerticateCards from "./CertificateCards";
 import Particle from "../Particle";
 import PCEP from "./certificates-images/python.png";
+import BBST from "./certificates-images/bbst.png";
 import GoogleITPython from "./certificates-images/Google-IT-Python.PNG";
 import AmazonAI from "./certificates-images/Amazon_AI.png";
 import SeleniumProfessional from "./certificates-images/selenium.png";
@@ -35,6 +36,17 @@ function Certificates() {
               where Foundation Level is required.
               "
               demoLink="https://drive.google.com/file/d/13JTMLzFM9M_ffLUGpZrQ7a4jLK1mkRoD/view?usp=sharing"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <CerticateCards
+              imgPath={BBST}
+              isBlog={false}
+              title="BBST® Test Design"
+              description="The BBST® Test Design course aims to help you become a more adaptable tester, giving you the knowledge to thrive in this fast-paced industry. You will learn to design powerful tests that lead to the discovery of important bugs with both exploratory testing and test automation.
+              "
+              demoLink="https://drive.google.com/file/d/1J1dwObtLevsHd4ukipMsM6ha59plfemq/view?usp=sharing"
             />
           </Col>
 
