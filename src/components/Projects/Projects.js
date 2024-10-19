@@ -7,6 +7,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import parkingCost from "../../Assets/Projects/parking-cost.png";
 import rokomari from "../../Assets/Projects/rokomari.png";
+import taxCalculation from "../../Assets/Projects/Tax-Calculation.png";
 
 function Projects() {
   return (
@@ -32,6 +33,22 @@ function Projects() {
               "
               ghLink="https://github.com/Muntasir101/Conference-Room-Booking"
               demoLink="https://muntasir101.github.io/Conference-Room-Booking/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={taxCalculation}
+              isBlog={false}
+              title="Tax calculation Application"
+              description="The Tax Calculation System is a web-based application designed to 
+              help users easily calculate various types of taxes, 
+              including Income Tax, Sales Tax, and Property Tax. The system features a 
+              modern and professional user interface that allows users to input their f
+              inancial information and receive accurate tax calculations.
+              "
+              ghLink="https://github.com/Muntasir101/Tax-Calculation-Application"
+              demoLink="https://muntasir101.github.io/Tax-Calculation-Application/"
             />
           </Col>
 
