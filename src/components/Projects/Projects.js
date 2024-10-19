@@ -8,6 +8,7 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 import parkingCost from "../../Assets/Projects/parking-cost.png";
 import rokomari from "../../Assets/Projects/rokomari.png";
 import taxCalculation from "../../Assets/Projects/Tax-Calculation.png";
+import ametuereBank from "../../Assets/Projects/bank.png";
 
 function Projects() {
   return (
@@ -49,6 +50,22 @@ function Projects() {
               "
               ghLink="https://github.com/Muntasir101/Tax-Calculation-Application"
               demoLink="https://muntasir101.github.io/Tax-Calculation-Application/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ametuereBank}
+              isBlog={false}
+              title="Ametuere Bank"
+              description="The Online Banking System is a web-based application that 
+              allows users to create accounts, deposit and withdraw funds, 
+              and transfer money between accounts. The system is built using 
+              HTML, CSS, and JavaScript, providing a user-friendly interface for 
+              managing bank accounts.
+              "
+              ghLink="https://github.com/Muntasir101/Amateur-Bank"
+              demoLink="https://muntasir101.github.io/Amateur-Bank/"
             />
           </Col>
 
