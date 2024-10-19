@@ -4,7 +4,6 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import conference from "../../Assets/Projects/conference.png";
 import fundTransfer from "../../Assets/Projects/fund-transfer.png";
-import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import parkingCost from "../../Assets/Projects/parking-cost.png";
 import rokomari from "../../Assets/Projects/rokomari.png";
