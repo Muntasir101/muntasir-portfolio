@@ -97,7 +97,8 @@ function Certificates() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+{/*
+      <Col md={4} className="project-card">
             <CerticateCards
               imgPath={Jmeter}
               isBlog={false}
@@ -109,6 +110,7 @@ function Certificates() {
               demoLink="https://drive.google.com/file/d/1zzTsQgCkZkpdCIGitIXrYFQx8zjksGJA/view?usp=sharing"              
             />
           </Col>
+*/}
 
 
 
