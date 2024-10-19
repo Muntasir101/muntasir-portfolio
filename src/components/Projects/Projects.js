@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import conference from "../../Assets/Projects/conference.png";
 import fundTransfer from "../../Assets/Projects/fund-transfer.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
@@ -23,7 +24,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={conference}
               isBlog={false}
               title="Conference Room"
               description="The conference room booking system aims to:
