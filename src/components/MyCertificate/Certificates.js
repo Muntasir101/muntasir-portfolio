@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import CerticateCards from "./CertificateCards";
 import Particle from "../Particle";
 import PCEP from "./certificates-images/python.png";
-import BBST from "./certificates-images/bbst.png";
 import GoogleITPython from "./certificates-images/Google-IT-Python.PNG";
 import AmazonAI from "./certificates-images/Amazon_AI.png";
 import SeleniumProfessional from "./certificates-images/selenium.png";
