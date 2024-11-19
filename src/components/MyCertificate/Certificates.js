@@ -4,6 +4,7 @@ import CerticateCards from "./CertificateCards";
 import Particle from "../Particle";
 import PCEP from "./certificates-images/python.png";
 import GoogleITPython from "./certificates-images/Google-IT-Python.PNG";
+import BBST from "./certificates-images/bbst.PNG"
 import AmazonAI from "./certificates-images/Amazon_AI.png";
 import SeleniumProfessional from "./certificates-images/selenium.png";
 import ISTQB from "./certificates-images/ISTQB - Muntasir.jpg";
