@@ -7,6 +7,7 @@ import GoogleITPython from "./certificates-images/Google-IT-Python.PNG";
 import BBST from "./certificates-images/bbst.PNG"
 import AmazonAI from "./certificates-images/Amazon_AI.png";
 import SeleniumProfessional from "./certificates-images/selenium.png";
+import JavaSE from "./certificates-images/JavaSE.jpeg"
 import ISTQB from "./certificates-images/ISTQB - Muntasir.jpg";
 import POSTMAN from "./certificates-images/postman.jpeg";
 import Jmeter from "./certificates-images/JMeter.jpeg";
@@ -39,14 +40,15 @@ function Certificates() {
             />
           </Col>
 
+          
           <Col md={4} className="project-card">
             <CerticateCards
-              imgPath={BBST}
+              imgPath={JavaSE}
               isBlog={false}
-              title="BBST® Test Design"
-              description="The BBST® Test Design course aims to help you become a more adaptable tester, giving you the knowledge to thrive in this fast-paced industry. You will learn to design powerful tests that lead to the discovery of important bugs with both exploratory testing and test automation.
+              title="The Java SE 8 Oracle Certified Associate (OCA) certification"
+              description="The Java SE 8 OCA certification provides a foundational understanding of Java and is the first step towards becoming a professional Java developer.
               "
-              demoLink="https://drive.google.com/file/d/1J1dwObtLevsHd4ukipMsM6ha59plfemq/view?usp=sharing"
+              demoLink="https://drive.google.com/file/d/1OMSGpuGnvl3jPUZdv7KKqSbWHU-F8cBQ/view?usp=sharing"              
             />
           </Col>
 
@@ -63,15 +65,14 @@ function Certificates() {
 
           <Col md={4} className="project-card">
             <CerticateCards
-              imgPath={GoogleITPython}
+              imgPath={BBST}
               isBlog={false}
-              title="Google IT Automation with Python Professional"
-              description="This beginner, six-course certificate is designed to provide IT professionals with in-demand skills—including Python, Git, and IT automation—that can help you advance your career."
-              
-              demoLink="https://drive.google.com/file/d/1U8qTBXxRf83755_2f1WKO5htVt_gjH_U/view"
+              title="BBST® Test Design"
+              description="The BBST® Test Design course aims to help you become a more adaptable tester, giving you the knowledge to thrive in this fast-paced industry. You will learn to design powerful tests that lead to the discovery of important bugs with both exploratory testing and test automation.
+              "
+              demoLink="https://drive.google.com/file/d/1J1dwObtLevsHd4ukipMsM6ha59plfemq/view?usp=sharing"
             />
           </Col>
-      
 
           <Col md={4} className="project-card">
             <CerticateCards
@@ -86,6 +87,17 @@ function Certificates() {
 
           <Col md={4} className="project-card">
             <CerticateCards
+              imgPath={GoogleITPython}
+              isBlog={false}
+              title="Google IT Automation with Python Professional"
+              description="This beginner, six-course certificate is designed to provide IT professionals with in-demand skills—including Python, Git, and IT automation—that can help you advance your career."
+              
+              demoLink="https://drive.google.com/file/d/1U8qTBXxRf83755_2f1WKO5htVt_gjH_U/view"
+            />
+          </Col>
+      
+          <Col md={4} className="project-card">
+            <CerticateCards
               imgPath={POSTMAN}
               isBlog={false}
               title="Postman API Fundamentals"
@@ -98,7 +110,7 @@ function Certificates() {
           </Col>
 
 
-      <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <CerticateCards
               imgPath={Jmeter}
               isBlog={false}
@@ -110,9 +122,6 @@ function Certificates() {
               demoLink="https://drive.google.com/file/d/1zzTsQgCkZkpdCIGitIXrYFQx8zjksGJA/view?usp=sharing"              
             />
           </Col>
-
-
-
 
           <Col md={4} className="project-card">
             <CerticateCards
