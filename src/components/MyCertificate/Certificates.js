@@ -78,7 +78,7 @@ function Certificates() {
             <CerticateCards
               imgPath={SeleniumProfessional}
               isBlog={false}
-              title="Selenium Prefessional"
+              title="Selenium Professional"
               description="The Selenium certification focuses on the candidate's capacity to implement Selenium WebDriver for designing and maintaining automated testing solutions.
               "
               demoLink="https://drive.google.com/file/d/1HTrLj1qhgv4YUkmjSDBKss9xkdYowCyw/view"              
